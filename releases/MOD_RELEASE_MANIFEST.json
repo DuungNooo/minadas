@@ -1,19 +1,19 @@
 [
   {
-    "name": "fantasia-campaign-1.2.0-rc.1.jar",
-    "bytes": 324675,
-    "sha256": "69b9ac76f8ad78d59d408721fbf1f77a7f042b653cf71bad1cf69e6139f9321f"
+    "name": "fantasia-campaign-1.2.0-rc.2.jar",
+    "bytes": 324954,
+    "sha256": "dd7a22eff36f59a941b97a60ca98326402a3a02e3347483b8bda27b8e3bb19a6"
   },
   {
-    "name": "Fantasia_Campaign_Mod_1.2.0_RC1.zip",
-    "bytes": 255554,
-    "sha256": "14b973f155a518b67165bbece024141662a04cbc4d68788c4be2fae97ec2bb2c",
+    "name": "Fantasia_Campaign_Mod_1.2.0_RC2.zip",
+    "bytes": 256248,
+    "sha256": "ab0ae9a84ec89e72d572fa3cd39fea6b5abf4dde80ec33d4b63a0e572ff9ad76",
     "files": 8
   },
   {
-    "name": "Fantasia_Campaign_Mod_1.2.0_RC1_source.zip",
-    "bytes": 852974,
-    "sha256": "bf8c14154bc6c014f8e5c18d6df36062d2629441cf7c65f16d4543d0a4fd8140",
+    "name": "Fantasia_Campaign_Mod_1.2.0_RC2_source.zip",
+    "bytes": 853653,
+    "sha256": "020eb43c6ae26c6f641c168f2b1e0c7113e69cce89123563abbd7941bd4240ba",
     "files": 921
   }
 ]

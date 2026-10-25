@@ -1,4 +1,4 @@
-# Fantasia Campaign 1.2.0 RC1
+# Fantasia Campaign 1.2.0 RC2
 
 Minecraft 1.21.1 / NeoForge 21.1.224 이상 / Java 21. 서버와 모든 클라이언트에 같은 JAR을 설치합니다.
 
@@ -7,7 +7,7 @@ Minecraft 1.21.1 / NeoForge 21.1.224 이상 / Java 21. 서버와 모든 클라�
 ## 설치와 기존 버전 업데이트
 
 1. 게임과 서버를 완전히 종료합니다. 기존 월드를 백업합니다.
-2. `mods/fantasia-campaign-1.2.0-rc.1.jar`를 사용 중인 인스턴스의 `mods`에 넣습니다.
+2. `mods/fantasia-campaign-1.2.0-rc.2.jar`를 사용 중인 인스턴스의 `mods`에 넣습니다.
 3. 기존 설치라면 아래 충돌 파일을 **게임 폴더 밖에 백업한 뒤** 비활성화합니다. 월드 자체는 삭제하지 않습니다.
 
 - `kubejs/server_scripts/fantasia_exam_runtime.js`

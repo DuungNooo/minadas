@@ -13,21 +13,23 @@ import java.util.List;
 public final class DialogueScreen extends Screen {
     private final Packets.View view;
     private int page=0,scroll=0,left,top,panelWidth,panelHeight,bodyHeight,perPage;
-    private boolean submitted=false;
+    private boolean submitted=false,examChoices=false;
     private List<FormattedCharSequence> lines=List.of();
     public DialogueScreen(Packets.View view){super(Component.literal(view.title()));this.view=view;}
     @Override protected void init(){
         panelWidth=Math.min(540,width-20);panelHeight=Math.min(390,height-16);left=(width-panelWidth)/2;top=(height-panelHeight)/2;
-        bodyHeight=Math.max(40,panelHeight/2-20);perPage=Math.max(2,Math.min(6,(panelHeight-bodyHeight-100)/24*2));
+        examChoices=view.buttons().equals(List.of("1번 선택","2번 선택","3번 선택"));
+        bodyHeight=examChoices?Math.max(30,panelHeight-156):Math.max(40,panelHeight/2-20);
+        perPage=examChoices?3:Math.max(2,Math.min(6,(panelHeight-bodyHeight-100)/24*2));
         lines=font.split(Component.literal(view.body()),panelWidth-36);
         page=Math.clamp(page,0,Math.max(0,(view.buttons().size()-1)/perPage));
-        int y=top+bodyHeight+48;
+        int y=examChoices?top+panelHeight-108:top+bodyHeight+48;
         for(int i=page*perPage;i<Math.min(view.buttons().size(),(page+1)*perPage);i++){
             int index=i,slot=i-page*perPage;
             String value=view.buttons().get(i);
             Component label=value.startsWith("translate:")?Component.translatable(value.substring(10)):Component.literal(value);
             addRenderableWidget(Button.builder(label,b->{if(!submitted){submitted=true;PacketDistributor.sendToServer(new Packets.Click(view.token(),index));minecraft.setScreen(null);}})
-                .bounds(left+16+(slot%2)*(panelWidth/2-8),y+(slot/2)*24,panelWidth/2-24,20).tooltip(Tooltip.create(label)).build());
+                .bounds(examChoices?left+16:left+16+(slot%2)*(panelWidth/2-8),y+(examChoices?slot:slot/2)*24,examChoices?panelWidth-32:panelWidth/2-24,20).tooltip(Tooltip.create(label)).build());
         }
         int pages=Math.max(1,(view.buttons().size()+perPage-1)/perPage);
         if(pages>1){
@@ -35,6 +37,11 @@ public final class DialogueScreen extends Screen {
             var next=addRenderableWidget(Button.builder(Component.literal("다음"),b->{page++;rebuildWidgets();}).bounds(left+78,top+panelHeight-30,55,20).build());next.active=page+1<pages;
         }
         addRenderableWidget(Button.builder(Component.literal("닫기"),b->onClose()).bounds(left+panelWidth-70,top+panelHeight-30,54,20).build());
+    }
+    @Override public void renderBackground(GuiGraphics g,int mouseX,int mouseY,float partialTick){
+        // Screen.render calls this before its widgets. Our panel/text have already been drawn,
+        // so the vanilla 1.21 blur would blur the text while leaving the buttons sharp.
+        // The custom render method owns the background; do not run the vanilla blur here.
     }
     @Override public void render(GuiGraphics g,int mouseX,int mouseY,float partialTick){
         g.fill(0,0,width,height,0xB0101522);g.fill(left,top,left+panelWidth,top+panelHeight,0xF0192235);

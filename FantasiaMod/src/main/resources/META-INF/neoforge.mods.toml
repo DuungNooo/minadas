@@ -3,7 +3,7 @@ loaderVersion="[4,)"
 license="All Rights Reserved"
 [[mods]]
 modId="fantasia_campaign"
-version="1.2.0-rc.1"
+version="1.2.0-rc.2"
 displayName="Fantasia Campaign"
 description='''아카데미 입학 검사, NPC 대화와 캠페인을 위한 전용 모드.'''
 [[dependencies.fantasia_campaign]]

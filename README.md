@@ -1,6 +1,6 @@
 # Fantasia Campaign
 
-Minecraft 1.21.1 / NeoForge용 캠페인 모드입니다. 최신 구현은 **1.2.0 RC1**입니다.
+Minecraft 1.21.1 / NeoForge용 캠페인 모드입니다. 최신 구현은 **1.2.0 RC2**입니다.
 
 [설치·플레이 안내](FantasiaMod/README_KO.md) · [실제 검증 결과](FantasiaMod/VALIDATION_MOD_KO.md)
 

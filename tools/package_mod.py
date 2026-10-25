@@ -3,8 +3,8 @@
 from pathlib import Path
 import hashlib,json,zipfile,shutil
 ROOT=Path(__file__).resolve().parents[1]
-MOD=ROOT/'FantasiaMod';OUT=ROOT/'releases';NAME='Fantasia_Campaign_Mod_1.2.0_RC1'
-JAR=MOD/'build/libs/fantasia-campaign-1.2.0-rc.1.jar'
+MOD=ROOT/'FantasiaMod';OUT=ROOT/'releases';NAME='Fantasia_Campaign_Mod_1.2.0_RC2'
+JAR=MOD/'build/libs/fantasia-campaign-1.2.0-rc.2.jar'
 def digest(data):return hashlib.sha256(data).hexdigest()
 def archive(target,files):
  manifest={}
