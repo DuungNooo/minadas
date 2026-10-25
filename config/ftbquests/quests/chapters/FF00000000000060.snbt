@@ -1,0 +1,130 @@
+{
+  "filename": "FF00000000000060",
+  "group": "FE00000000000001",
+  "icon": {
+    "id": "minecraft:rose_bush"
+  },
+  "id": "FF00000000000060",
+  "order_index": 15,
+  "quests": [
+    {
+      "id": "FF00000000000D10",
+      "x": 0.0,
+      "y": 0.0,
+      "icon": {
+        "id": "minecraft:rose_bush"
+      },
+      "tasks": [
+        {
+          "id": "FF00000000000E10",
+          "type": "advancement",
+          "advancement": "fantasia_research:bond/adeline",
+          "criterion": ""
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "FF00000000000D11",
+      "x": 4.0,
+      "y": 0.0,
+      "icon": {
+        "id": "minecraft:rose_bush"
+      },
+      "tasks": [
+        {
+          "id": "FF00000000000E11",
+          "type": "advancement",
+          "advancement": "fantasia_research:bond/kyle",
+          "criterion": ""
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "FF00000000000D12",
+      "x": 8.0,
+      "y": 0.0,
+      "icon": {
+        "id": "minecraft:rose_bush"
+      },
+      "tasks": [
+        {
+          "id": "FF00000000000E12",
+          "type": "advancement",
+          "advancement": "fantasia_research:bond/seraphine",
+          "criterion": ""
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "FF00000000000D13",
+      "x": 12.0,
+      "y": 0.0,
+      "icon": {
+        "id": "minecraft:rose_bush"
+      },
+      "tasks": [
+        {
+          "id": "FF00000000000E13",
+          "type": "advancement",
+          "advancement": "fantasia_research:bond/irina",
+          "criterion": ""
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "FF00000000000D14",
+      "x": 0.0,
+      "y": 3.0,
+      "icon": {
+        "id": "minecraft:rose_bush"
+      },
+      "tasks": [
+        {
+          "id": "FF00000000000E14",
+          "type": "advancement",
+          "advancement": "fantasia_research:bond/noah",
+          "criterion": ""
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "FF00000000000D15",
+      "x": 4.0,
+      "y": 3.0,
+      "icon": {
+        "id": "minecraft:rose_bush"
+      },
+      "tasks": [
+        {
+          "id": "FF00000000000E15",
+          "type": "advancement",
+          "advancement": "fantasia_research:bond/riana",
+          "criterion": ""
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "FF00000000000D16",
+      "x": 8.0,
+      "y": 3.0,
+      "icon": {
+        "id": "minecraft:rose_bush"
+      },
+      "tasks": [
+        {
+          "id": "FF00000000000E16",
+          "type": "advancement",
+          "advancement": "fantasia_research:bond/claude",
+          "criterion": ""
+        }
+      ],
+      "rewards": []
+    }
+  ]
+}

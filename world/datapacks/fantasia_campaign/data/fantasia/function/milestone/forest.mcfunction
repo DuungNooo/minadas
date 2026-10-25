@@ -1,0 +1,9 @@
+scoreboard players set @s fa_forest 5
+advancement grant @s only fantasia_research:campaign/forest
+tag @s remove fa_in_forest
+tag @s remove fa_fighting
+tellraw @s {"text":"숲의 균열 봉합 완료! 아카데미에서 다음 목적지를 선택하세요.","color":"green"}
+advancement grant @s only fantasia_research:nature_tier_1
+advancement grant @s only fantasia_research:nature_tier_2
+give @s minecraft:golden_apple 2
+experience add @s 5 levels

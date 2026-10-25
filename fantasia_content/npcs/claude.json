@@ -1,0 +1,15 @@
+{
+  "id": "claude",
+  "name": "클라우드 레인",
+  "role": "동기생 / 라이벌",
+  "relationship": true,
+  "favorite": "minecraft:golden_apple",
+  "portrait": "claude.png",
+  "personality": "성적과 실력을 중시하지만 점차 동료가 된다.",
+  "side": [
+    "첫 대련",
+    "성적 경쟁",
+    "혼자 남은 훈련장",
+    "라이벌의 선택"
+  ]
+}

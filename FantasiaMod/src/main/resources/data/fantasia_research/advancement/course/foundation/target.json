@@ -1,0 +1,38 @@
+{
+  "parent": "fantasia_research:exam/complete",
+  "display": {
+    "icon": {
+      "id": "minecraft:target"
+    },
+    "title": "표적 제어 실습",
+    "description": "[선택 실습] 과녁을 정확하게 맞혀 마력 제어와 원거리 감각을 증명합니다.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "hit": {
+      "trigger": "minecraft:target_hit",
+      "conditions": {
+        "signal_strength": {
+          "min": 10
+        },
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "fantasia_research:exam/complete": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

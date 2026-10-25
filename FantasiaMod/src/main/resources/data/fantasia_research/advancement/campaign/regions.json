@@ -1,0 +1,19 @@
+{
+  "parent": "fantasia_research:root",
+  "display": {
+    "icon": {
+      "id": "minecraft:compass"
+    },
+    "title": "네 개의 흔적",
+    "description": "네 지역의 봉인 조사를 모두 완료합니다.",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "campaign_event": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

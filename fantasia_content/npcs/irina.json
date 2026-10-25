@@ -1,0 +1,15 @@
+{
+  "id": "irina",
+  "name": "이리나 벨",
+  "role": "연금술사",
+  "relationship": true,
+  "favorite": "minecraft:blaze_powder",
+  "portrait": "irina.png",
+  "personality": "호기심이 강하고 위험한 실험도 서슴지 않는다.",
+  "side": [
+    "폭발한 실험대",
+    "희귀 촉매",
+    "금지된 제조법",
+    "완성되지 않은 약"
+  ]
+}

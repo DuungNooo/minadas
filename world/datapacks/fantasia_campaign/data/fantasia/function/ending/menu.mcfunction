@@ -1,0 +1,2 @@
+tellraw @s {"text":"결말을 선택하세요. 선택은 개인 기록에 영구 저장됩니다.","color":"yellow"}
+tellraw @s [{"text":"[ 봉인 재구축 ] ","color":"aqua","bold":true,"clickEvent":{"action":"run_command","value":"/trigger fa_action set 61"}},{"text":"[ 마력 소멸 ] ","color":"aqua","bold":true,"clickEvent":{"action":"run_command","value":"/trigger fa_action set 62"}},{"text":"[ 힘 통제 ] ","color":"aqua","bold":true,"clickEvent":{"action":"run_command","value":"/trigger fa_action set 63"}},{"text":"[ 진실 공개 ] ","color":"aqua","bold":true,"clickEvent":{"action":"run_command","value":"/trigger fa_action set 64"}}]

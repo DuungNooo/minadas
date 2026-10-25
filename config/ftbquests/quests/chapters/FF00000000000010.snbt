@@ -1,0 +1,48 @@
+{
+  "filename": "FF00000000000010",
+  "group": "FE00000000000001",
+  "icon": {
+    "id": "minecraft:knowledge_book"
+  },
+  "id": "FF00000000000010",
+  "order_index": 10,
+  "quests": [
+    {
+      "id": "FF00000000000D00",
+      "x": 0.0,
+      "y": 0.0,
+      "icon": {
+        "id": "minecraft:knowledge_book"
+      },
+      "tasks": [
+        {
+          "id": "FF00000000000E00",
+          "type": "advancement",
+          "advancement": "fantasia_research:exam/complete",
+          "criterion": ""
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "FF00000000000D01",
+      "x": 4.0,
+      "y": 0.0,
+      "icon": {
+        "id": "minecraft:knowledge_book"
+      },
+      "tasks": [
+        {
+          "id": "FF00000000000E01",
+          "type": "advancement",
+          "advancement": "fantasia_research:campaign/intro",
+          "criterion": ""
+        }
+      ],
+      "rewards": [],
+      "dependencies": [
+        "FF00000000000D00"
+      ]
+    }
+  ]
+}

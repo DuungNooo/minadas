@@ -1,0 +1,31 @@
+plugins {
+    id 'java-library'
+    id 'net.neoforged.moddev' version '2.0.148'
+}
+version = '1.2.0-rc.1'
+group = 'kr.fantasia'
+base { archivesName = 'fantasia-campaign' }
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+neoForge {
+    version = '21.1.224'
+    runs {
+        client { client() }
+        server { server(); programArgument '--nogui' }
+        gameTestServer { gameDirectory = project.file('run-verification'); type = 'gameTestServer'; systemProperty 'neoforge.enabledGameTestNamespaces', 'fantasia_campaign' }
+    }
+    mods { fantasia_campaign { sourceSet sourceSets.main } }
+}
+repositories { maven { url = 'https://api.modrinth.com/maven'; content { includeGroup 'maven.modrinth' } } }
+dependencies {
+    compileOnly 'maven.modrinth:irons-spells-n-spellbooks:slKLosTb'
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.11.4'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }
+test { useJUnitPlatform() }
+
+jar { exclude 'kr/fantasia/campaign/verification/**'; exclude 'data/fantasia_campaign/structure/test_empty.nbt'; exclude 'data/minecraft/worldgen/world_preset/flat.json' }
+
+sourceSets.main.resources.srcDir 'src/gametest/resources'
+
+tasks.withType(AbstractArchiveTask).configureEach { preserveFileTimestamps = false; reproducibleFileOrder = true }

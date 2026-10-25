@@ -1,0 +1,19 @@
+{
+  "parent": "fantasia_research:root",
+  "display": {
+    "icon": {
+      "id": "minecraft:nether_star"
+    },
+    "title": "세 전선 돌파",
+    "description": "세 전선을 모두 돌파합니다.",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "campaign_event": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "filename": "FE00000000000010",
+  "group": "FE00000000000001",
+  "icon": {
+    "id": "minecraft:knowledge_book"
+  },
+  "id": "FE00000000000010",
+  "order_index": 0,
+  "quests": [
+    {
+      "id": "FE00000000000100",
+      "x": 0.0,
+      "y": 0.0,
+      "icon": {
+        "id": "minecraft:writable_book"
+      },
+      "tasks": [
+        {
+          "id": "FE00000000001100",
+          "type": "advancement",
+          "advancement": "fantasia_research:exam/registration",
+          "criterion": ""
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "FE00000000000101",
+      "dependencies": [
+        "FE00000000000100"
+      ],
+      "x": 3.0,
+      "y": 0.0,
+      "icon": {
+        "id": "minecraft:iron_sword"
+      },
+      "tasks": [
+        {
+          "id": "FE00000000001101",
+          "type": "advancement",
+          "advancement": "fantasia_research:exam/physical",
+          "criterion": ""
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "FE00000000000102",
+      "dependencies": [
+        "FE00000000000101"
+      ],
+      "x": 6.0,
+      "y": 0.0,
+      "icon": {
+        "id": "minecraft:amethyst_shard"
+      },
+      "tasks": [
+        {
+          "id": "FE00000000001102",
+          "type": "advancement",
+          "advancement": "fantasia_research:exam/mana",
+          "criterion": ""
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "FE00000000000103",
+      "dependencies": [
+        "FE00000000000102"
+      ],
+      "x": 9.0,
+      "y": 0.0,
+      "icon": {
+        "id": "minecraft:ender_eye"
+      },
+      "tasks": [
+        {
+          "id": "FE00000000001103",
+          "type": "advancement",
+          "advancement": "fantasia_research:exam/control",
+          "criterion": ""
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "FE00000000000104",
+      "dependencies": [
+        "FE00000000000103"
+      ],
+      "x": 12.0,
+      "y": 0.0,
+      "icon": {
+        "id": "minecraft:iron_axe"
+      },
+      "tasks": [
+        {
+          "id": "FE00000000001104",
+          "type": "advancement",
+          "advancement": "fantasia_research:exam/weapon",
+          "criterion": ""
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "FE00000000000105",
+      "dependencies": [
+        "FE00000000000104"
+      ],
+      "x": 15.0,
+      "y": 0.0,
+      "icon": {
+        "id": "minecraft:enchanted_book"
+      },
+      "tasks": [
+        {
+          "id": "FE00000000001105",
+          "type": "advancement",
+          "advancement": "fantasia_research:exam/affinity",
+          "criterion": ""
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "FE00000000000106",
+      "dependencies": [
+        "FE00000000000105"
+      ],
+      "x": 18.0,
+      "y": 0.0,
+      "icon": {
+        "id": "minecraft:nether_star"
+      },
+      "tasks": [
+        {
+          "id": "FE00000000001106",
+          "type": "advancement",
+          "advancement": "fantasia_research:exam/complete",
+          "criterion": ""
+        }
+      ],
+      "rewards": []
+    }
+  ]
+}

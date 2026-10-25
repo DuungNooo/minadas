@@ -1,0 +1,9 @@
+{
+  "id": "milo",
+  "name": "마일로",
+  "role": "상인",
+  "relationship": false,
+  "favorite": "",
+  "portrait": "milo.png",
+  "personality": "소모품과 연구 재료를 판매한다."
+}

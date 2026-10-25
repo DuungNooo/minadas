@@ -1,0 +1,9 @@
+{
+  "id": "bernard",
+  "name": "베른하르트",
+  "role": "실종된 교수",
+  "relationship": false,
+  "favorite": "",
+  "portrait": "bernard.png",
+  "personality": "사건의 진실과 연결된 실종 교수."
+}

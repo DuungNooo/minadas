@@ -1,0 +1,15 @@
+{
+  "id": "riana",
+  "name": "리아나 펠",
+  "role": "현장 조사관",
+  "relationship": true,
+  "favorite": "minecraft:compass",
+  "portrait": "riana.png",
+  "personality": "행동파. 야외 임무와 탐험을 좋아한다.",
+  "side": [
+    "길 잃은 조사대",
+    "낡은 나침반",
+    "숲의 목소리",
+    "마지막 원정"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "manual": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "icon": {
+      "id": "minecraft:ender_eye"
+    },
+    "title": "마력 제어 검사 완료",
+    "description": "MND / 제어 능력 측정을 완료했습니다.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "fantasia_research:root"
+}

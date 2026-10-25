@@ -1,0 +1,551 @@
+{
+  "filename": "FE00000000000020",
+  "group": "FE00000000000001",
+  "icon": {
+    "id": "minecraft:enchanted_book"
+  },
+  "id": "FE00000000000020",
+  "order_index": 1,
+  "quests": [
+    {
+      "id": "FE00000000000200",
+      "x": 0.0,
+      "y": 0.0,
+      "shape": "circle",
+      "icon": {
+        "id": "minecraft:blaze_powder"
+      },
+      "tasks": [
+        {
+          "id": "FE00000000000600",
+          "type": "advancement",
+          "advancement": "fantasia_research:fire_tier_1",
+          "criterion": ""
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "FE00000000000201",
+      "dependencies": [
+        "FE00000000000200"
+      ],
+      "x": 4.0,
+      "y": 0.0,
+      "shape": "circle",
+      "icon": {
+        "id": "minecraft:blaze_powder"
+      },
+      "tasks": [
+        {
+          "id": "FE00000000000601",
+          "type": "advancement",
+          "advancement": "fantasia_research:fire_tier_2",
+          "criterion": ""
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "FE00000000000202",
+      "dependencies": [
+        "FE00000000000201"
+      ],
+      "x": 8.0,
+      "y": 0.0,
+      "shape": "diamond",
+      "icon": {
+        "id": "minecraft:blaze_powder"
+      },
+      "tasks": [
+        {
+          "id": "FE00000000000602",
+          "type": "advancement",
+          "advancement": "fantasia_research:fire_tier_3",
+          "criterion": ""
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "FE00000000000203",
+      "x": 0.0,
+      "y": 2.0,
+      "shape": "circle",
+      "icon": {
+        "id": "minecraft:packed_ice"
+      },
+      "tasks": [
+        {
+          "id": "FE00000000000603",
+          "type": "advancement",
+          "advancement": "fantasia_research:ice_tier_1",
+          "criterion": ""
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "FE00000000000204",
+      "dependencies": [
+        "FE00000000000203"
+      ],
+      "x": 4.0,
+      "y": 2.0,
+      "shape": "circle",
+      "icon": {
+        "id": "minecraft:packed_ice"
+      },
+      "tasks": [
+        {
+          "id": "FE00000000000604",
+          "type": "advancement",
+          "advancement": "fantasia_research:ice_tier_2",
+          "criterion": ""
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "FE00000000000205",
+      "dependencies": [
+        "FE00000000000204"
+      ],
+      "x": 8.0,
+      "y": 2.0,
+      "shape": "diamond",
+      "icon": {
+        "id": "minecraft:packed_ice"
+      },
+      "tasks": [
+        {
+          "id": "FE00000000000605",
+          "type": "advancement",
+          "advancement": "fantasia_research:ice_tier_3",
+          "criterion": ""
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "FE00000000000206",
+      "x": 0.0,
+      "y": 4.0,
+      "shape": "circle",
+      "icon": {
+        "id": "minecraft:lightning_rod"
+      },
+      "tasks": [
+        {
+          "id": "FE00000000000606",
+          "type": "advancement",
+          "advancement": "fantasia_research:lightning_tier_1",
+          "criterion": ""
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "FE00000000000207",
+      "dependencies": [
+        "FE00000000000206"
+      ],
+      "x": 4.0,
+      "y": 4.0,
+      "shape": "circle",
+      "icon": {
+        "id": "minecraft:lightning_rod"
+      },
+      "tasks": [
+        {
+          "id": "FE00000000000607",
+          "type": "advancement",
+          "advancement": "fantasia_research:lightning_tier_2",
+          "criterion": ""
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "FE00000000000208",
+      "dependencies": [
+        "FE00000000000207"
+      ],
+      "x": 8.0,
+      "y": 4.0,
+      "shape": "diamond",
+      "icon": {
+        "id": "minecraft:lightning_rod"
+      },
+      "tasks": [
+        {
+          "id": "FE00000000000608",
+          "type": "advancement",
+          "advancement": "fantasia_research:lightning_tier_3",
+          "criterion": ""
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "FE00000000000209",
+      "x": 0.0,
+      "y": 6.0,
+      "shape": "circle",
+      "icon": {
+        "id": "minecraft:oak_sapling"
+      },
+      "tasks": [
+        {
+          "id": "FE00000000000609",
+          "type": "advancement",
+          "advancement": "fantasia_research:nature_tier_1",
+          "criterion": ""
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "FE0000000000020A",
+      "dependencies": [
+        "FE00000000000209"
+      ],
+      "x": 4.0,
+      "y": 6.0,
+      "shape": "circle",
+      "icon": {
+        "id": "minecraft:oak_sapling"
+      },
+      "tasks": [
+        {
+          "id": "FE0000000000060A",
+          "type": "advancement",
+          "advancement": "fantasia_research:nature_tier_2",
+          "criterion": ""
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "FE0000000000020B",
+      "dependencies": [
+        "FE0000000000020A"
+      ],
+      "x": 8.0,
+      "y": 6.0,
+      "shape": "diamond",
+      "icon": {
+        "id": "minecraft:oak_sapling"
+      },
+      "tasks": [
+        {
+          "id": "FE0000000000060B",
+          "type": "advancement",
+          "advancement": "fantasia_research:nature_tier_3",
+          "criterion": ""
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "FE0000000000020C",
+      "x": 0.0,
+      "y": 8.0,
+      "shape": "circle",
+      "icon": {
+        "id": "minecraft:glowstone_dust"
+      },
+      "tasks": [
+        {
+          "id": "FE0000000000060C",
+          "type": "advancement",
+          "advancement": "fantasia_research:holy_tier_1",
+          "criterion": ""
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "FE0000000000020D",
+      "dependencies": [
+        "FE0000000000020C"
+      ],
+      "x": 4.0,
+      "y": 8.0,
+      "shape": "circle",
+      "icon": {
+        "id": "minecraft:glowstone_dust"
+      },
+      "tasks": [
+        {
+          "id": "FE0000000000060D",
+          "type": "advancement",
+          "advancement": "fantasia_research:holy_tier_2",
+          "criterion": ""
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "FE0000000000020E",
+      "dependencies": [
+        "FE0000000000020D"
+      ],
+      "x": 8.0,
+      "y": 8.0,
+      "shape": "diamond",
+      "icon": {
+        "id": "minecraft:glowstone_dust"
+      },
+      "tasks": [
+        {
+          "id": "FE0000000000060E",
+          "type": "advancement",
+          "advancement": "fantasia_research:holy_tier_3",
+          "criterion": ""
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "FE0000000000020F",
+      "x": 0.0,
+      "y": 10.0,
+      "shape": "circle",
+      "icon": {
+        "id": "minecraft:ender_pearl"
+      },
+      "tasks": [
+        {
+          "id": "FE0000000000060F",
+          "type": "advancement",
+          "advancement": "fantasia_research:ender_tier_1",
+          "criterion": ""
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "FE00000000000210",
+      "dependencies": [
+        "FE0000000000020F"
+      ],
+      "x": 4.0,
+      "y": 10.0,
+      "shape": "circle",
+      "icon": {
+        "id": "minecraft:ender_pearl"
+      },
+      "tasks": [
+        {
+          "id": "FE00000000000610",
+          "type": "advancement",
+          "advancement": "fantasia_research:ender_tier_2",
+          "criterion": ""
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "FE00000000000211",
+      "dependencies": [
+        "FE00000000000210"
+      ],
+      "x": 8.0,
+      "y": 10.0,
+      "shape": "diamond",
+      "icon": {
+        "id": "minecraft:ender_pearl"
+      },
+      "tasks": [
+        {
+          "id": "FE00000000000611",
+          "type": "advancement",
+          "advancement": "fantasia_research:ender_tier_3",
+          "criterion": ""
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "FE00000000000212",
+      "x": 0.0,
+      "y": 12.0,
+      "shape": "circle",
+      "icon": {
+        "id": "minecraft:redstone"
+      },
+      "tasks": [
+        {
+          "id": "FE00000000000612",
+          "type": "advancement",
+          "advancement": "fantasia_research:blood_tier_1",
+          "criterion": ""
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "FE00000000000213",
+      "dependencies": [
+        "FE00000000000212"
+      ],
+      "x": 4.0,
+      "y": 12.0,
+      "shape": "circle",
+      "icon": {
+        "id": "minecraft:redstone"
+      },
+      "tasks": [
+        {
+          "id": "FE00000000000613",
+          "type": "advancement",
+          "advancement": "fantasia_research:blood_tier_2",
+          "criterion": ""
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "FE00000000000214",
+      "dependencies": [
+        "FE00000000000213"
+      ],
+      "x": 8.0,
+      "y": 12.0,
+      "shape": "diamond",
+      "icon": {
+        "id": "minecraft:redstone"
+      },
+      "tasks": [
+        {
+          "id": "FE00000000000614",
+          "type": "advancement",
+          "advancement": "fantasia_research:blood_tier_3",
+          "criterion": ""
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "FE00000000000215",
+      "x": 0.0,
+      "y": 14.0,
+      "shape": "circle",
+      "icon": {
+        "id": "minecraft:totem_of_undying"
+      },
+      "tasks": [
+        {
+          "id": "FE00000000000615",
+          "type": "advancement",
+          "advancement": "fantasia_research:evocation_tier_1",
+          "criterion": ""
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "FE00000000000216",
+      "dependencies": [
+        "FE00000000000215"
+      ],
+      "x": 4.0,
+      "y": 14.0,
+      "shape": "circle",
+      "icon": {
+        "id": "minecraft:totem_of_undying"
+      },
+      "tasks": [
+        {
+          "id": "FE00000000000616",
+          "type": "advancement",
+          "advancement": "fantasia_research:evocation_tier_2",
+          "criterion": ""
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "FE00000000000217",
+      "dependencies": [
+        "FE00000000000216"
+      ],
+      "x": 8.0,
+      "y": 14.0,
+      "shape": "diamond",
+      "icon": {
+        "id": "minecraft:totem_of_undying"
+      },
+      "tasks": [
+        {
+          "id": "FE00000000000617",
+          "type": "advancement",
+          "advancement": "fantasia_research:evocation_tier_3",
+          "criterion": ""
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "FE00000000000218",
+      "x": 0.0,
+      "y": 16.0,
+      "shape": "circle",
+      "icon": {
+        "id": "minecraft:echo_shard"
+      },
+      "tasks": [
+        {
+          "id": "FE00000000000618",
+          "type": "advancement",
+          "advancement": "fantasia_research:void_tier_1",
+          "criterion": ""
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "FE00000000000219",
+      "dependencies": [
+        "FE00000000000218"
+      ],
+      "x": 4.0,
+      "y": 16.0,
+      "shape": "circle",
+      "icon": {
+        "id": "minecraft:echo_shard"
+      },
+      "tasks": [
+        {
+          "id": "FE00000000000619",
+          "type": "advancement",
+          "advancement": "fantasia_research:void_tier_2",
+          "criterion": ""
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "FE0000000000021A",
+      "dependencies": [
+        "FE00000000000219"
+      ],
+      "x": 8.0,
+      "y": 16.0,
+      "shape": "diamond",
+      "icon": {
+        "id": "minecraft:echo_shard"
+      },
+      "tasks": [
+        {
+          "id": "FE0000000000061A",
+          "type": "advancement",
+          "advancement": "fantasia_research:void_tier_3",
+          "criterion": ""
+        }
+      ],
+      "rewards": []
+    }
+  ]
+}

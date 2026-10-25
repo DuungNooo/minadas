@@ -1,0 +1,1 @@
+{"criteria":{"use":{"trigger":"minecraft:player_interacted_with_entity","conditions":{"entity":{"type":"minecraft:interaction","nbt":"{Tags:[\"fa_station_miner\"]}"}}}},"rewards":{"function":"fantasia:station/miner"}}

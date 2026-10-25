@@ -1,0 +1,19 @@
+[
+  {
+    "name": "fantasia-campaign-1.2.0-rc.1.jar",
+    "bytes": 324675,
+    "sha256": "69b9ac76f8ad78d59d408721fbf1f77a7f042b653cf71bad1cf69e6139f9321f"
+  },
+  {
+    "name": "Fantasia_Campaign_Mod_1.2.0_RC1.zip",
+    "bytes": 255554,
+    "sha256": "14b973f155a518b67165bbece024141662a04cbc4d68788c4be2fae97ec2bb2c",
+    "files": 8
+  },
+  {
+    "name": "Fantasia_Campaign_Mod_1.2.0_RC1_source.zip",
+    "bytes": 852974,
+    "sha256": "bf8c14154bc6c014f8e5c18d6df36062d2629441cf7c65f16d4543d0a4fd8140",
+    "files": 921
+  }
+]

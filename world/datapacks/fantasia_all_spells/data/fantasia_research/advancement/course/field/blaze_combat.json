@@ -1,0 +1,22 @@
+{
+  "parent": "fantasia_research:root",
+  "display": {
+    "icon": {
+      "id": "minecraft:blaze_rod"
+    },
+    "title": "광산 실전 합격",
+    "description": "불타는 광산의 전투 임무를 완료합니다.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "campaign_event": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "fantasia_research:course/field_complete"
+  }
+}

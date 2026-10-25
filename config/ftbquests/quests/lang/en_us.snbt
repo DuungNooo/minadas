@@ -1,0 +1,344 @@
+{
+  "chapter_group.FE00000000000001.title": "Fantasia",
+  "chapter.FE00000000000010.title": "Entrance Examination",
+  "chapter.FE00000000000020.title": "Magic Research",
+  "chapter.FE00000000000030.title": "Training and Combat Assessment",
+  "chapter.FE00000000000040.title": "Mine Field Record",
+  "chapter.FE00000000000050.title": "Regional Field Record",
+  "chapter.FE00000000000060.title": "Seal Research and Graduation",
+  "quest.FE00000000000100.title": "Registration",
+  "task.FE00000000001100.title": "Registration",
+  "quest.FE00000000000101.title": "Physical Aptitude",
+  "task.FE00000000001101.title": "Physical Aptitude",
+  "quest.FE00000000000102.title": "Mana Aptitude",
+  "task.FE00000000001102.title": "Mana Aptitude",
+  "quest.FE00000000000103.title": "Mana Control",
+  "task.FE00000000001103.title": "Mana Control",
+  "quest.FE00000000000104.title": "Weapon Aptitude",
+  "task.FE00000000001104.title": "Weapon Aptitude",
+  "quest.FE00000000000105.title": "Magic Affinity",
+  "task.FE00000000001105.title": "Magic Affinity",
+  "quest.FE00000000000106.title": "Examination Complete",
+  "task.FE00000000001106.title": "Examination Complete",
+  "quest.FE00000000000200.title": "Fire 1",
+  "task.FE00000000000600.title": "Fire tier 1",
+  "quest.FE00000000000200.quest_desc": [
+    "Unlock Fire research tier 1 through campaign milestones."
+  ],
+  "quest.FE00000000000201.title": "Fire 2",
+  "task.FE00000000000601.title": "Fire tier 2",
+  "quest.FE00000000000201.quest_desc": [
+    "Unlock Fire research tier 2 through campaign milestones."
+  ],
+  "quest.FE00000000000202.title": "Fire 3",
+  "task.FE00000000000602.title": "Fire tier 3",
+  "quest.FE00000000000202.quest_desc": [
+    "Unlock Fire research tier 3 through campaign milestones."
+  ],
+  "quest.FE00000000000203.title": "Ice 1",
+  "task.FE00000000000603.title": "Ice tier 1",
+  "quest.FE00000000000203.quest_desc": [
+    "Unlock Ice research tier 1 through campaign milestones."
+  ],
+  "quest.FE00000000000204.title": "Ice 2",
+  "task.FE00000000000604.title": "Ice tier 2",
+  "quest.FE00000000000204.quest_desc": [
+    "Unlock Ice research tier 2 through campaign milestones."
+  ],
+  "quest.FE00000000000205.title": "Ice 3",
+  "task.FE00000000000605.title": "Ice tier 3",
+  "quest.FE00000000000205.quest_desc": [
+    "Unlock Ice research tier 3 through campaign milestones."
+  ],
+  "quest.FE00000000000206.title": "Lightning 1",
+  "task.FE00000000000606.title": "Lightning tier 1",
+  "quest.FE00000000000206.quest_desc": [
+    "Unlock Lightning research tier 1 through campaign milestones."
+  ],
+  "quest.FE00000000000207.title": "Lightning 2",
+  "task.FE00000000000607.title": "Lightning tier 2",
+  "quest.FE00000000000207.quest_desc": [
+    "Unlock Lightning research tier 2 through campaign milestones."
+  ],
+  "quest.FE00000000000208.title": "Lightning 3",
+  "task.FE00000000000608.title": "Lightning tier 3",
+  "quest.FE00000000000208.quest_desc": [
+    "Unlock Lightning research tier 3 through campaign milestones."
+  ],
+  "quest.FE00000000000209.title": "Nature 1",
+  "task.FE00000000000609.title": "Nature tier 1",
+  "quest.FE00000000000209.quest_desc": [
+    "Unlock Nature research tier 1 through campaign milestones."
+  ],
+  "quest.FE0000000000020A.title": "Nature 2",
+  "task.FE0000000000060A.title": "Nature tier 2",
+  "quest.FE0000000000020A.quest_desc": [
+    "Unlock Nature research tier 2 through campaign milestones."
+  ],
+  "quest.FE0000000000020B.title": "Nature 3",
+  "task.FE0000000000060B.title": "Nature tier 3",
+  "quest.FE0000000000020B.quest_desc": [
+    "Unlock Nature research tier 3 through campaign milestones."
+  ],
+  "quest.FE0000000000020C.title": "Holy 1",
+  "task.FE0000000000060C.title": "Holy tier 1",
+  "quest.FE0000000000020C.quest_desc": [
+    "Unlock Holy research tier 1 through campaign milestones."
+  ],
+  "quest.FE0000000000020D.title": "Holy 2",
+  "task.FE0000000000060D.title": "Holy tier 2",
+  "quest.FE0000000000020D.quest_desc": [
+    "Unlock Holy research tier 2 through campaign milestones."
+  ],
+  "quest.FE0000000000020E.title": "Holy 3",
+  "task.FE0000000000060E.title": "Holy tier 3",
+  "quest.FE0000000000020E.quest_desc": [
+    "Unlock Holy research tier 3 through campaign milestones."
+  ],
+  "quest.FE0000000000020F.title": "Ender 1",
+  "task.FE0000000000060F.title": "Ender tier 1",
+  "quest.FE0000000000020F.quest_desc": [
+    "Unlock Ender research tier 1 through campaign milestones."
+  ],
+  "quest.FE00000000000210.title": "Ender 2",
+  "task.FE00000000000610.title": "Ender tier 2",
+  "quest.FE00000000000210.quest_desc": [
+    "Unlock Ender research tier 2 through campaign milestones."
+  ],
+  "quest.FE00000000000211.title": "Ender 3",
+  "task.FE00000000000611.title": "Ender tier 3",
+  "quest.FE00000000000211.quest_desc": [
+    "Unlock Ender research tier 3 through campaign milestones."
+  ],
+  "quest.FE00000000000212.title": "Blood 1",
+  "task.FE00000000000612.title": "Blood tier 1",
+  "quest.FE00000000000212.quest_desc": [
+    "Unlock Blood research tier 1 through campaign milestones."
+  ],
+  "quest.FE00000000000213.title": "Blood 2",
+  "task.FE00000000000613.title": "Blood tier 2",
+  "quest.FE00000000000213.quest_desc": [
+    "Unlock Blood research tier 2 through campaign milestones."
+  ],
+  "quest.FE00000000000214.title": "Blood 3",
+  "task.FE00000000000614.title": "Blood tier 3",
+  "quest.FE00000000000214.quest_desc": [
+    "Unlock Blood research tier 3 through campaign milestones."
+  ],
+  "quest.FE00000000000215.title": "Evocation 1",
+  "task.FE00000000000615.title": "Evocation tier 1",
+  "quest.FE00000000000215.quest_desc": [
+    "Unlock Evocation research tier 1 through campaign milestones."
+  ],
+  "quest.FE00000000000216.title": "Evocation 2",
+  "task.FE00000000000616.title": "Evocation tier 2",
+  "quest.FE00000000000216.quest_desc": [
+    "Unlock Evocation research tier 2 through campaign milestones."
+  ],
+  "quest.FE00000000000217.title": "Evocation 3",
+  "task.FE00000000000617.title": "Evocation tier 3",
+  "quest.FE00000000000217.quest_desc": [
+    "Unlock Evocation research tier 3 through campaign milestones."
+  ],
+  "quest.FE00000000000218.title": "Void 1",
+  "task.FE00000000000618.title": "Void tier 1",
+  "quest.FE00000000000218.quest_desc": [
+    "Unlock Void research tier 1 through campaign milestones."
+  ],
+  "quest.FE00000000000219.title": "Void 2",
+  "task.FE00000000000619.title": "Void tier 2",
+  "quest.FE00000000000219.quest_desc": [
+    "Unlock Void research tier 2 through campaign milestones."
+  ],
+  "quest.FE0000000000021A.title": "Void 3",
+  "task.FE0000000000061A.title": "Void tier 3",
+  "quest.FE0000000000021A.quest_desc": [
+    "Unlock Void research tier 3 through campaign milestones."
+  ],
+  "quest.FE00000000000900.title": "Target Practice (Optional)",
+  "task.FE00000000000A00.title": "Target Practice (Optional)",
+  "quest.FE00000000000900.quest_desc": [
+    "Optional hands-on training after the entrance exam."
+  ],
+  "quest.FE00000000000901.title": "Enchanting (Optional)",
+  "task.FE00000000000A01.title": "Enchanting (Optional)",
+  "quest.FE00000000000901.quest_desc": [
+    "Optional hands-on training after the entrance exam."
+  ],
+  "quest.FE00000000000902.title": "Brewing (Optional)",
+  "task.FE00000000000A02.title": "Brewing (Optional)",
+  "quest.FE00000000000902.quest_desc": [
+    "Optional hands-on training after the entrance exam."
+  ],
+  "quest.FE00000000000903.title": "Combat Assessment",
+  "task.FE00000000000A03.title": "Combat Assessment",
+  "quest.FE00000000000903.quest_desc": [
+    "Recorded automatically when its campaign objective is completed."
+  ],
+  "quest.FE00000000000904.title": "Mine Investigation",
+  "task.FE00000000000A04.title": "Mine Investigation",
+  "quest.FE00000000000904.quest_desc": [
+    "Recorded automatically when its campaign objective is completed."
+  ],
+  "quest.FE00000000000905.title": "Fire Seal Analysis",
+  "task.FE00000000000A05.title": "Fire Seal Analysis",
+  "quest.FE00000000000905.quest_desc": [
+    "Recorded automatically when its campaign objective is completed."
+  ],
+  "quest.FE00000000000906.title": "Mine Combat",
+  "task.FE00000000000A06.title": "Mine Combat",
+  "quest.FE00000000000906.quest_desc": [
+    "Recorded automatically when its campaign objective is completed."
+  ],
+  "quest.FE00000000000907.title": "Canal Field Trial",
+  "task.FE00000000000A07.title": "Canal Field Trial",
+  "quest.FE00000000000907.quest_desc": [
+    "Recorded automatically when its campaign objective is completed."
+  ],
+  "quest.FE00000000000908.title": "Mine Field Trial",
+  "task.FE00000000000A08.title": "Mine Field Trial",
+  "quest.FE00000000000908.quest_desc": [
+    "Recorded automatically when its campaign objective is completed."
+  ],
+  "quest.FE00000000000909.title": "Seal Archives",
+  "task.FE00000000000A09.title": "Seal Archives",
+  "quest.FE00000000000909.quest_desc": [
+    "Recorded automatically when its campaign objective is completed."
+  ],
+  "quest.FE0000000000090A.title": "High Density Core",
+  "task.FE00000000000A0A.title": "High Density Core",
+  "quest.FE0000000000090A.quest_desc": [
+    "Recorded automatically when its campaign objective is completed."
+  ],
+  "quest.FE0000000000090B.title": "Final Seal Catalyst",
+  "task.FE00000000000A0B.title": "Final Seal Catalyst",
+  "quest.FE0000000000090B.quest_desc": [
+    "Recorded automatically when its campaign objective is completed."
+  ],
+  "quest.FE0000000000090C.title": "Defeat Belkarion",
+  "task.FE00000000000A0C.title": "Defeat Belkarion",
+  "quest.FE0000000000090C.quest_desc": [
+    "Recorded automatically when its campaign objective is completed."
+  ],
+  "chapter.FF00000000000010.title": "Prologue — Entrance and Training",
+  "quest.FF00000000000D00.title": "Examination Complete",
+  "quest.FF00000000000D00.quest_desc": [
+    "Complete the corresponding campaign objective. Progress is recorded automatically."
+  ],
+  "task.FF00000000000E00.title": "Examination Complete",
+  "quest.FF00000000000D01.title": "Field Investigation Permit",
+  "quest.FF00000000000D01.quest_desc": [
+    "Complete the corresponding campaign objective. Progress is recorded automatically."
+  ],
+  "task.FF00000000000E01.title": "Field Investigation Permit",
+  "chapter.FF00000000000020.title": "Act I — Four Traces",
+  "quest.FF00000000000D02.title": "Burning Mine",
+  "quest.FF00000000000D02.quest_desc": [
+    "Complete the corresponding campaign objective. Progress is recorded automatically."
+  ],
+  "task.FF00000000000E02.title": "Burning Mine",
+  "quest.FF00000000000D03.title": "Frozen Canal",
+  "quest.FF00000000000D03.quest_desc": [
+    "Complete the corresponding campaign objective. Progress is recorded automatically."
+  ],
+  "task.FF00000000000E03.title": "Frozen Canal",
+  "quest.FF00000000000D04.title": "Corrupted Forest",
+  "quest.FF00000000000D04.quest_desc": [
+    "Complete the corresponding campaign objective. Progress is recorded automatically."
+  ],
+  "task.FF00000000000E04.title": "Corrupted Forest",
+  "quest.FF00000000000D05.title": "Thunder Plains",
+  "quest.FF00000000000D05.quest_desc": [
+    "Complete the corresponding campaign objective. Progress is recorded automatically."
+  ],
+  "task.FF00000000000E05.title": "Thunder Plains",
+  "quest.FF00000000000D06.title": "Four Traces",
+  "quest.FF00000000000D06.quest_desc": [
+    "Complete the corresponding campaign objective. Progress is recorded automatically."
+  ],
+  "task.FF00000000000E06.title": "Four Traces",
+  "chapter.FF00000000000030.title": "Act II — Truth of the Seal",
+  "quest.FF00000000000D07.title": "Academy Defense",
+  "quest.FF00000000000D07.quest_desc": [
+    "Complete the corresponding campaign objective. Progress is recorded automatically."
+  ],
+  "task.FF00000000000E07.title": "Academy Defense",
+  "quest.FF00000000000D08.title": "Truth of the Seal",
+  "quest.FF00000000000D08.quest_desc": [
+    "Complete the corresponding campaign objective. Progress is recorded automatically."
+  ],
+  "task.FF00000000000E08.title": "Truth of the Seal",
+  "chapter.FF00000000000040.title": "Act III — Three Fronts",
+  "quest.FF00000000000D09.title": "Northern Front",
+  "quest.FF00000000000D09.quest_desc": [
+    "Complete the corresponding campaign objective. Progress is recorded automatically."
+  ],
+  "task.FF00000000000E09.title": "Northern Front",
+  "quest.FF00000000000D0A.title": "Eastern Front",
+  "quest.FF00000000000D0A.quest_desc": [
+    "Complete the corresponding campaign objective. Progress is recorded automatically."
+  ],
+  "task.FF00000000000E0A.title": "Eastern Front",
+  "quest.FF00000000000D0B.title": "Southern Front",
+  "quest.FF00000000000D0B.quest_desc": [
+    "Complete the corresponding campaign objective. Progress is recorded automatically."
+  ],
+  "task.FF00000000000E0B.title": "Southern Front",
+  "quest.FF00000000000D0C.title": "Three Fronts",
+  "quest.FF00000000000D0C.quest_desc": [
+    "Complete the corresponding campaign objective. Progress is recorded automatically."
+  ],
+  "task.FF00000000000E0C.title": "Three Fronts",
+  "chapter.FF00000000000050.title": "Finale — The Rift King",
+  "quest.FF00000000000D0D.title": "Demon Castle",
+  "quest.FF00000000000D0D.quest_desc": [
+    "Complete the corresponding campaign objective. Progress is recorded automatically."
+  ],
+  "task.FF00000000000E0D.title": "Demon Castle",
+  "quest.FF00000000000D0E.title": "Defeat Belkarion",
+  "quest.FF00000000000D0E.quest_desc": [
+    "Complete the corresponding campaign objective. Progress is recorded automatically."
+  ],
+  "task.FF00000000000E0E.title": "Defeat Belkarion",
+  "quest.FF00000000000D0F.title": "The Rift King — Ending",
+  "quest.FF00000000000D0F.quest_desc": [
+    "Complete the corresponding campaign objective. Progress is recorded automatically."
+  ],
+  "task.FF00000000000E0F.title": "The Rift King — Ending",
+  "chapter.FF00000000000060.title": "Bonds — Seven Companions",
+  "quest.FF00000000000D10.title": "Bond with Adeline",
+  "quest.FF00000000000D10.quest_desc": [
+    "Complete the corresponding campaign objective. Progress is recorded automatically."
+  ],
+  "task.FF00000000000E10.title": "Bond with Adeline",
+  "quest.FF00000000000D11.title": "Bond with Kyle",
+  "quest.FF00000000000D11.quest_desc": [
+    "Complete the corresponding campaign objective. Progress is recorded automatically."
+  ],
+  "task.FF00000000000E11.title": "Bond with Kyle",
+  "quest.FF00000000000D12.title": "Bond with Seraphine",
+  "quest.FF00000000000D12.quest_desc": [
+    "Complete the corresponding campaign objective. Progress is recorded automatically."
+  ],
+  "task.FF00000000000E12.title": "Bond with Seraphine",
+  "quest.FF00000000000D13.title": "Bond with Irina",
+  "quest.FF00000000000D13.quest_desc": [
+    "Complete the corresponding campaign objective. Progress is recorded automatically."
+  ],
+  "task.FF00000000000E13.title": "Bond with Irina",
+  "quest.FF00000000000D14.title": "Bond with Noah",
+  "quest.FF00000000000D14.quest_desc": [
+    "Complete the corresponding campaign objective. Progress is recorded automatically."
+  ],
+  "task.FF00000000000E14.title": "Bond with Noah",
+  "quest.FF00000000000D15.title": "Bond with Riana",
+  "quest.FF00000000000D15.quest_desc": [
+    "Complete the corresponding campaign objective. Progress is recorded automatically."
+  ],
+  "task.FF00000000000E15.title": "Bond with Riana",
+  "quest.FF00000000000D16.title": "Bond with Claude",
+  "quest.FF00000000000D16.quest_desc": [
+    "Complete the corresponding campaign objective. Progress is recorded automatically."
+  ],
+  "task.FF00000000000E16.title": "Bond with Claude"
+}

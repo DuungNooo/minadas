@@ -1,0 +1,51 @@
+{
+  "filename": "FF00000000000030",
+  "group": "FE00000000000001",
+  "icon": {
+    "id": "minecraft:book"
+  },
+  "id": "FF00000000000030",
+  "order_index": 12,
+  "quests": [
+    {
+      "id": "FF00000000000D07",
+      "x": 0.0,
+      "y": 0.0,
+      "icon": {
+        "id": "minecraft:book"
+      },
+      "tasks": [
+        {
+          "id": "FF00000000000E07",
+          "type": "advancement",
+          "advancement": "fantasia_research:campaign/defense",
+          "criterion": ""
+        }
+      ],
+      "rewards": [],
+      "dependencies": [
+        "FF00000000000D06"
+      ]
+    },
+    {
+      "id": "FF00000000000D08",
+      "x": 4.0,
+      "y": 0.0,
+      "icon": {
+        "id": "minecraft:book"
+      },
+      "tasks": [
+        {
+          "id": "FF00000000000E08",
+          "type": "advancement",
+          "advancement": "fantasia_research:campaign/truth",
+          "criterion": ""
+        }
+      ],
+      "rewards": [],
+      "dependencies": [
+        "FF00000000000D07"
+      ]
+    }
+  ]
+}

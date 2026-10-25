@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "manual": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "icon": {
+      "id": "minecraft:book"
+    },
+    "title": "소환/환술 연구 2단계",
+    "description": "소환/환술 계통 2단계 마법 사용 권한",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "fantasia_research:evocation_tier_1"
+}

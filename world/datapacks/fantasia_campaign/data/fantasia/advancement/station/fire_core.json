@@ -1,0 +1,1 @@
+{"criteria":{"use":{"trigger":"minecraft:player_interacted_with_entity","conditions":{"entity":{"type":"minecraft:interaction","nbt":"{Tags:[\"fa_station_fire_core\"]}"}}}},"rewards":{"function":"fantasia:station/fire_core"}}

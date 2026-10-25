@@ -1,0 +1,114 @@
+{
+  "filename": "FF00000000000020",
+  "group": "FE00000000000001",
+  "icon": {
+    "id": "minecraft:compass"
+  },
+  "id": "FF00000000000020",
+  "order_index": 11,
+  "quests": [
+    {
+      "id": "FF00000000000D02",
+      "x": 0.0,
+      "y": 0.0,
+      "icon": {
+        "id": "minecraft:compass"
+      },
+      "tasks": [
+        {
+          "id": "FF00000000000E02",
+          "type": "advancement",
+          "advancement": "fantasia_research:campaign/mine",
+          "criterion": ""
+        }
+      ],
+      "rewards": [],
+      "dependencies": [
+        "FF00000000000D01"
+      ]
+    },
+    {
+      "id": "FF00000000000D03",
+      "x": 4.0,
+      "y": 0.0,
+      "icon": {
+        "id": "minecraft:compass"
+      },
+      "tasks": [
+        {
+          "id": "FF00000000000E03",
+          "type": "advancement",
+          "advancement": "fantasia_research:campaign/canal",
+          "criterion": ""
+        }
+      ],
+      "rewards": [],
+      "dependencies": [
+        "FF00000000000D01"
+      ]
+    },
+    {
+      "id": "FF00000000000D04",
+      "x": 8.0,
+      "y": 0.0,
+      "icon": {
+        "id": "minecraft:compass"
+      },
+      "tasks": [
+        {
+          "id": "FF00000000000E04",
+          "type": "advancement",
+          "advancement": "fantasia_research:campaign/forest",
+          "criterion": ""
+        }
+      ],
+      "rewards": [],
+      "dependencies": [
+        "FF00000000000D01"
+      ]
+    },
+    {
+      "id": "FF00000000000D05",
+      "x": 12.0,
+      "y": 0.0,
+      "icon": {
+        "id": "minecraft:compass"
+      },
+      "tasks": [
+        {
+          "id": "FF00000000000E05",
+          "type": "advancement",
+          "advancement": "fantasia_research:campaign/storm",
+          "criterion": ""
+        }
+      ],
+      "rewards": [],
+      "dependencies": [
+        "FF00000000000D01"
+      ]
+    },
+    {
+      "id": "FF00000000000D06",
+      "x": 0.0,
+      "y": 3.0,
+      "icon": {
+        "id": "minecraft:compass"
+      },
+      "tasks": [
+        {
+          "id": "FF00000000000E06",
+          "type": "advancement",
+          "advancement": "fantasia_research:campaign/regions",
+          "criterion": ""
+        }
+      ],
+      "rewards": [],
+      "dependencies": [
+        "FF00000000000D02",
+        "FF00000000000D03",
+        "FF00000000000D04",
+        "FF00000000000D05"
+      ]
+    }
+  ]
+}

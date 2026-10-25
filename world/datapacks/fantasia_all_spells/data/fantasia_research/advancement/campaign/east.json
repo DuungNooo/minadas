@@ -1,0 +1,19 @@
+{
+  "parent": "fantasia_research:root",
+  "display": {
+    "icon": {
+      "id": "minecraft:vine"
+    },
+    "title": "동부 전선",
+    "description": "동부 전선의 임무를 완료합니다.",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "campaign_event": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

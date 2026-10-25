@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "manual": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "icon": {
+      "id": "minecraft:book"
+    },
+    "title": "빙결 연구 2단계",
+    "description": "빙결 계통 2단계 마법 사용 권한",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "fantasia_research:ice_tier_1"
+}

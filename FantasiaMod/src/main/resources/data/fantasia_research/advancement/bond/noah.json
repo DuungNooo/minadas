@@ -1,0 +1,19 @@
+{
+  "parent": "fantasia_research:root",
+  "display": {
+    "icon": {
+      "id": "minecraft:rose_bush"
+    },
+    "title": "노아와의 인연",
+    "description": "노아의 호감도 80을 달성합니다.",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "relationship": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

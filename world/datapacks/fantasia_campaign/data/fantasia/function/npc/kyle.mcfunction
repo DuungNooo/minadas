@@ -1,0 +1,6 @@
+advancement revoke @s only fantasia:npc/kyle
+tellraw @s {"text":"카일 · 훈련과 보급","color":"gold"}
+tellraw @s {"text":"장비를 받고 훈련장에서 세 적을 쓰러뜨려라. 검사를 마쳐야 훈련을 시작할 수 있다.","color":"white"}
+tellraw @s [{"text":"[ 훈련 장비 수령 ] ","color":"aqua","bold":true,"clickEvent":{"action":"run_command","value":"/trigger fa_action set 11"}},{"text":"[ 기초 훈련 시작 ] ","color":"aqua","bold":true,"clickEvent":{"action":"run_command","value":"/trigger fa_action set 12"}},{"text":"[ 선택 실습 재료 ] ","color":"aqua","bold":true,"clickEvent":{"action":"run_command","value":"/trigger fa_action set 14"}}]
+tellraw @s [{"text":"[ 현재 목표 ] ","color":"aqua","bold":true,"clickEvent":{"action":"run_command","value":"/trigger fa_action set 2"}},{"text":"[ 아카데미 귀환 ] ","color":"aqua","bold":true,"clickEvent":{"action":"run_command","value":"/trigger fa_action set 1"}}]
+execute if entity @s[tag=fa_modded] run tellraw @s [{"text":"[ 대화 ] ","color":"yellow","clickEvent":{"action":"run_command","value":"/fantasia_npc kyle talk"}},{"text":"[ 선물 ] ","color":"light_purple","clickEvent":{"action":"run_command","value":"/fantasia_npc kyle gift"}},{"text":"[ 내 정보 ]","color":"white","clickEvent":{"action":"run_command","value":"/fantasia_stats"}}]

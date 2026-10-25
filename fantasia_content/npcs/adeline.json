@@ -1,0 +1,15 @@
+{
+  "id": "adeline",
+  "name": "아델린 로아",
+  "role": "입학 담당 조교",
+  "relationship": true,
+  "favorite": "minecraft:amethyst_shard",
+  "portrait": "adeline.png",
+  "personality": "차분하고 꼼꼼하다. 플레이어를 처음부터 지켜보는 조력자.",
+  "side": [
+    "분실된 학생명부",
+    "야간 순찰",
+    "조교의 비밀",
+    "졸업 전날"
+  ]
+}

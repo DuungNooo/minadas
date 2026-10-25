@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "manual": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "icon": {
+      "id": "minecraft:iron_axe"
+    },
+    "title": "무기 적성 검사 완료",
+    "description": "여러 무기군의 적성을 측정했습니다.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "fantasia_research:root"
+}

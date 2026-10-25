@@ -1,0 +1,71 @@
+{
+  "filename": "FF00000000000050",
+  "group": "FE00000000000001",
+  "icon": {
+    "id": "minecraft:nether_star"
+  },
+  "id": "FF00000000000050",
+  "order_index": 14,
+  "quests": [
+    {
+      "id": "FF00000000000D0D",
+      "x": 0.0,
+      "y": 0.0,
+      "icon": {
+        "id": "minecraft:nether_star"
+      },
+      "tasks": [
+        {
+          "id": "FF00000000000E0D",
+          "type": "advancement",
+          "advancement": "fantasia_research:campaign/castle",
+          "criterion": ""
+        }
+      ],
+      "rewards": [],
+      "dependencies": [
+        "FF00000000000D0C"
+      ]
+    },
+    {
+      "id": "FF00000000000D0E",
+      "x": 4.0,
+      "y": 0.0,
+      "icon": {
+        "id": "minecraft:nether_star"
+      },
+      "tasks": [
+        {
+          "id": "FF00000000000E0E",
+          "type": "advancement",
+          "advancement": "fantasia_research:course/graduation/capstone",
+          "criterion": ""
+        }
+      ],
+      "rewards": [],
+      "dependencies": [
+        "FF00000000000D0D"
+      ]
+    },
+    {
+      "id": "FF00000000000D0F",
+      "x": 8.0,
+      "y": 0.0,
+      "icon": {
+        "id": "minecraft:nether_star"
+      },
+      "tasks": [
+        {
+          "id": "FF00000000000E0F",
+          "type": "advancement",
+          "advancement": "fantasia_research:campaign/ending",
+          "criterion": ""
+        }
+      ],
+      "rewards": [],
+      "dependencies": [
+        "FF00000000000D0E"
+      ]
+    }
+  ]
+}

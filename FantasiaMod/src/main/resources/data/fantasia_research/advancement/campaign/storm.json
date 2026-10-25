@@ -1,0 +1,19 @@
+{
+  "parent": "fantasia_research:root",
+  "display": {
+    "icon": {
+      "id": "minecraft:lightning_rod"
+    },
+    "title": "낙뢰 평원",
+    "description": "평원의 위협을 제거하고 낙뢰 봉인을 안정화합니다.",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "campaign_event": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

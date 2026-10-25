@@ -1,0 +1,47 @@
+{
+  "filename": "FE00000000000050",
+  "group": "FE00000000000001",
+  "icon": {
+    "id": "minecraft:iron_chestplate"
+  },
+  "id": "FE00000000000050",
+  "order_index": 4,
+  "quests": [
+    {
+      "id": "FE00000000000907",
+      "x": 0.0,
+      "y": 0.0,
+      "shape": "circle",
+      "icon": {
+        "id": "minecraft:ender_eye"
+      },
+      "tasks": [
+        {
+          "id": "FE00000000000A07",
+          "type": "advancement",
+          "advancement": "fantasia_research:course/dungeon/ender_golem",
+          "criterion": ""
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "FE00000000000908",
+      "x": 4.0,
+      "y": 0.0,
+      "shape": "diamond",
+      "icon": {
+        "id": "minecraft:magma_cream"
+      },
+      "tasks": [
+        {
+          "id": "FE00000000000A08",
+          "type": "advancement",
+          "advancement": "fantasia_research:course/dungeon/ignited_revenant",
+          "criterion": ""
+        }
+      ],
+      "rewards": []
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "filename": "FF00000000000040",
+  "group": "FE00000000000001",
+  "icon": {
+    "id": "minecraft:shield"
+  },
+  "id": "FF00000000000040",
+  "order_index": 13,
+  "quests": [
+    {
+      "id": "FF00000000000D09",
+      "x": 0.0,
+      "y": 0.0,
+      "icon": {
+        "id": "minecraft:shield"
+      },
+      "tasks": [
+        {
+          "id": "FF00000000000E09",
+          "type": "advancement",
+          "advancement": "fantasia_research:campaign/north",
+          "criterion": ""
+        }
+      ],
+      "rewards": [],
+      "dependencies": [
+        "FF00000000000D08"
+      ]
+    },
+    {
+      "id": "FF00000000000D0A",
+      "x": 4.0,
+      "y": 0.0,
+      "icon": {
+        "id": "minecraft:shield"
+      },
+      "tasks": [
+        {
+          "id": "FF00000000000E0A",
+          "type": "advancement",
+          "advancement": "fantasia_research:campaign/east",
+          "criterion": ""
+        }
+      ],
+      "rewards": [],
+      "dependencies": [
+        "FF00000000000D08"
+      ]
+    },
+    {
+      "id": "FF00000000000D0B",
+      "x": 8.0,
+      "y": 0.0,
+      "icon": {
+        "id": "minecraft:shield"
+      },
+      "tasks": [
+        {
+          "id": "FF00000000000E0B",
+          "type": "advancement",
+          "advancement": "fantasia_research:campaign/south",
+          "criterion": ""
+        }
+      ],
+      "rewards": [],
+      "dependencies": [
+        "FF00000000000D08"
+      ]
+    },
+    {
+      "id": "FF00000000000D0C",
+      "x": 12.0,
+      "y": 0.0,
+      "icon": {
+        "id": "minecraft:shield"
+      },
+      "tasks": [
+        {
+          "id": "FF00000000000E0C",
+          "type": "advancement",
+          "advancement": "fantasia_research:campaign/fronts",
+          "criterion": ""
+        }
+      ],
+      "rewards": [],
+      "dependencies": [
+        "FF00000000000D09",
+        "FF00000000000D0A",
+        "FF00000000000D0B"
+      ]
+    }
+  ]
+}

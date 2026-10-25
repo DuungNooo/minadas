@@ -1,0 +1,95 @@
+{
+  "filename": "FE00000000000030",
+  "group": "FE00000000000001",
+  "icon": {
+    "id": "minecraft:target"
+  },
+  "id": "FE00000000000030",
+  "order_index": 2,
+  "quests": [
+    {
+      "id": "FE00000000000900",
+      "x": 0.0,
+      "y": 0.0,
+      "shape": "circle",
+      "icon": {
+        "id": "minecraft:target"
+      },
+      "tasks": [
+        {
+          "id": "FE00000000000A00",
+          "type": "advancement",
+          "advancement": "fantasia_research:course/foundation/target",
+          "criterion": ""
+        }
+      ],
+      "rewards": [],
+      "dependencies": [
+        "FE00000000000106"
+      ]
+    },
+    {
+      "id": "FE00000000000901",
+      "dependencies": [
+        "FE00000000000106"
+      ],
+      "x": 4.0,
+      "y": 0.0,
+      "shape": "circle",
+      "icon": {
+        "id": "minecraft:enchanting_table"
+      },
+      "tasks": [
+        {
+          "id": "FE00000000000A01",
+          "type": "advancement",
+          "advancement": "fantasia_research:course/foundation/enchant",
+          "criterion": ""
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "FE00000000000902",
+      "dependencies": [
+        "FE00000000000106"
+      ],
+      "x": 8.0,
+      "y": 0.0,
+      "shape": "circle",
+      "icon": {
+        "id": "minecraft:brewing_stand"
+      },
+      "tasks": [
+        {
+          "id": "FE00000000000A02",
+          "type": "advancement",
+          "advancement": "fantasia_research:course/foundation/alchemy",
+          "criterion": ""
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "FE00000000000903",
+      "dependencies": [
+        "FE00000000000106"
+      ],
+      "x": 12.0,
+      "y": 0.0,
+      "shape": "diamond",
+      "icon": {
+        "id": "minecraft:iron_sword"
+      },
+      "tasks": [
+        {
+          "id": "FE00000000000A03",
+          "type": "advancement",
+          "advancement": "fantasia_research:course/foundation/combat",
+          "criterion": ""
+        }
+      ],
+      "rewards": []
+    }
+  ]
+}

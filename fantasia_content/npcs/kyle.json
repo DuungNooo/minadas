@@ -1,0 +1,15 @@
+{
+  "id": "kyle",
+  "name": "카일 베른",
+  "role": "무기 교관",
+  "relationship": true,
+  "favorite": "minecraft:iron_ingot",
+  "portrait": "kyle.png",
+  "personality": "거칠어 보이지만 학생 안전을 우선한다.",
+  "side": [
+    "부러진 훈련검",
+    "대련 신청",
+    "옛 전우의 무기",
+    "마지막 수업"
+  ]
+}

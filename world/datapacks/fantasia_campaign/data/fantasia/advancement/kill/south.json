@@ -1,0 +1,1 @@
+{"criteria":{"kill":{"trigger":"minecraft:player_killed_entity","conditions":{"entity":{"nbt":"{Tags:[\"fa_enemy_south\"]}"}}}},"rewards":{"function":"fantasia:encounter/south/kill"}}

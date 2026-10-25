@@ -1,0 +1,9 @@
+{
+  "id": "orphen",
+  "name": "오르펜",
+  "role": "대장장이",
+  "relationship": false,
+  "favorite": "",
+  "portrait": "orphen.png",
+  "personality": "무기 강화, 수리, 숙련 관련 NPC."
+}

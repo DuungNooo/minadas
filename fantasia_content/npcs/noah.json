@@ -1,0 +1,15 @@
+{
+  "id": "noah",
+  "name": "노아 크레이",
+  "role": "도서관 사서",
+  "relationship": true,
+  "favorite": "minecraft:book",
+  "portrait": "noah.png",
+  "personality": "말수가 적고 고대문헌과 마왕 봉인에 정통하다.",
+  "side": [
+    "반납되지 않은 책",
+    "봉인서고",
+    "찢어진 페이지",
+    "기억의 기록"
+  ]
+}

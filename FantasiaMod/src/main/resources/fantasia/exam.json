@@ -1,0 +1,440 @@
+{
+  "questions": [
+    {
+      "title": "신체 검사 I",
+      "text": "정면에서 무거운 훈련 골렘이 돌진한다. 가장 먼저 취할 행동은?",
+      "choices": [
+        {
+          "text": "정면에서 힘으로 밀어낸다",
+          "stat": {
+            "str": 3,
+            "vit": 1
+          },
+          "weapon": {
+            "greatsword": 2,
+            "axe": 1,
+            "hammer": 2
+          }
+        },
+        {
+          "text": "공격을 받아내고 빈틈을 만든다",
+          "stat": {
+            "vit": 3,
+            "str": 1
+          },
+          "weapon": {
+            "sword": 2,
+            "spear": 1,
+            "hammer": 1
+          }
+        },
+        {
+          "text": "옆으로 피하고 약점을 노린다",
+          "stat": {
+            "agi": 3,
+            "str": 1
+          },
+          "weapon": {
+            "dagger": 2,
+            "bow": 1,
+            "spear": 1
+          }
+        }
+      ]
+    },
+    {
+      "title": "신체 검사 II",
+      "text": "긴 전투가 계속된다. 가장 자신 있는 방식은?",
+      "choices": [
+        {
+          "text": "한 번의 큰 공격으로 끝낸다",
+          "stat": {
+            "str": 3
+          },
+          "weapon": {
+            "greatsword": 2,
+            "axe": 2
+          }
+        },
+        {
+          "text": "끝까지 버티며 확실하게 싸운다",
+          "stat": {
+            "vit": 3
+          },
+          "weapon": {
+            "hammer": 2,
+            "sword": 1
+          }
+        },
+        {
+          "text": "계속 움직이며 공격을 흘린다",
+          "stat": {
+            "agi": 3
+          },
+          "weapon": {
+            "dagger": 2,
+            "bow": 2
+          }
+        }
+      ]
+    },
+    {
+      "title": "마력량 검사",
+      "text": "수정구가 마력을 요구한다. 어떤 식으로 마력을 주입할 것인가?",
+      "choices": [
+        {
+          "text": "가능한 한 많은 마력을 한 번에 밀어 넣는다",
+          "stat": {
+            "mag": 4
+          },
+          "weapon": {
+            "staff": 2
+          },
+          "affinity": {
+            "fire": 1,
+            "lightning": 1
+          }
+        },
+        {
+          "text": "출력을 유지하면서 천천히 높인다",
+          "stat": {
+            "mag": 2,
+            "mnd": 2
+          },
+          "weapon": {
+            "spellbook": 2
+          },
+          "affinity": {
+            "ice": 1,
+            "holy": 1
+          }
+        },
+        {
+          "text": "최소량으로 최대 반응을 끌어낸다",
+          "stat": {
+            "mnd": 3,
+            "mag": 1
+          },
+          "weapon": {
+            "hybrid": 2
+          },
+          "affinity": {
+            "ender": 1,
+            "void": 1
+          }
+        }
+      ]
+    },
+    {
+      "title": "마력 제어 검사",
+      "text": "불안정한 마법진을 안정시켜야 한다.",
+      "choices": [
+        {
+          "text": "강한 마력으로 강제로 안정시킨다",
+          "stat": {
+            "mag": 3,
+            "mnd": 1
+          },
+          "affinity": {
+            "fire": 1,
+            "blood": 1
+          }
+        },
+        {
+          "text": "흐름을 읽어 정확히 맞춘다",
+          "stat": {
+            "mnd": 4
+          },
+          "affinity": {
+            "ice": 1,
+            "holy": 1,
+            "void": 1
+          }
+        },
+        {
+          "text": "빠르게 여러 번 보정한다",
+          "stat": {
+            "agi": 2,
+            "mnd": 2
+          },
+          "affinity": {
+            "lightning": 1,
+            "ender": 1
+          }
+        }
+      ]
+    },
+    {
+      "title": "무기 적성 I",
+      "text": "근접전에 가장 끌리는 전투 방식은?",
+      "choices": [
+        {
+          "text": "검과 방어의 균형",
+          "weapon": {
+            "sword": 4,
+            "hybrid": 1
+          },
+          "stat": {
+            "vit": 1
+          }
+        },
+        {
+          "text": "대검/도끼의 압도적인 한 방",
+          "weapon": {
+            "greatsword": 3,
+            "axe": 3
+          },
+          "stat": {
+            "str": 1
+          }
+        },
+        {
+          "text": "단검/창의 빠른 간격 싸움",
+          "weapon": {
+            "dagger": 3,
+            "spear": 3
+          },
+          "stat": {
+            "agi": 1
+          }
+        }
+      ]
+    },
+    {
+      "title": "무기 적성 II",
+      "text": "원거리 전투라면 어떤 방식을 택할 것인가?",
+      "choices": [
+        {
+          "text": "활로 움직이며 연속 사격",
+          "weapon": {
+            "bow": 4
+          },
+          "stat": {
+            "agi": 1
+          }
+        },
+        {
+          "text": "석궁으로 정확한 강한 사격",
+          "weapon": {
+            "crossbow": 4
+          },
+          "stat": {
+            "str": 1
+          }
+        },
+        {
+          "text": "원거리보다 둔기로 진입",
+          "weapon": {
+            "hammer": 4
+          },
+          "stat": {
+            "vit": 1
+          }
+        }
+      ]
+    },
+    {
+      "title": "무기 적성 III",
+      "text": "마법과 무기를 함께 쓴다면?",
+      "choices": [
+        {
+          "text": "스태프로 순수 마법을 강화",
+          "weapon": {
+            "staff": 4
+          },
+          "stat": {
+            "mag": 1
+          }
+        },
+        {
+          "text": "마법서로 다양한 주문을 운용",
+          "weapon": {
+            "spellbook": 4
+          },
+          "stat": {
+            "mnd": 1
+          }
+        },
+        {
+          "text": "마검으로 근접전과 주문을 병행",
+          "weapon": {
+            "hybrid": 4,
+            "sword": 1
+          },
+          "stat": {
+            "str": 1,
+            "mag": 1
+          }
+        }
+      ]
+    },
+    {
+      "title": "속성 감응 I",
+      "text": "막힌 길을 마법으로 열어야 한다.",
+      "choices": [
+        {
+          "text": "불태워 길을 만든다",
+          "affinity": {
+            "fire": 4
+          }
+        },
+        {
+          "text": "얼려서 안전한 길을 만든다",
+          "affinity": {
+            "ice": 4
+          }
+        },
+        {
+          "text": "식물을 자라게 해 길을 만든다",
+          "affinity": {
+            "nature": 4
+          }
+        }
+      ]
+    },
+    {
+      "title": "속성 감응 II",
+      "text": "아군이 위험에 빠졌다. 가장 먼저 떠오르는 힘은?",
+      "choices": [
+        {
+          "text": "번개처럼 빠르게 적을 제압한다",
+          "affinity": {
+            "lightning": 4
+          }
+        },
+        {
+          "text": "치유와 보호로 아군을 살린다",
+          "affinity": {
+            "holy": 4
+          }
+        },
+        {
+          "text": "공간을 넘어 아군을 빼낸다",
+          "affinity": {
+            "ender": 4
+          }
+        }
+      ]
+    },
+    {
+      "title": "속성 감응 III",
+      "text": "금지된 연구실에서 알 수 없는 힘이 반응한다.",
+      "choices": [
+        {
+          "text": "생명력을 대가로 힘을 끌어낸다",
+          "affinity": {
+            "blood": 4
+          }
+        },
+        {
+          "text": "소환체를 만들어 대신 조사한다",
+          "affinity": {
+            "evocation": 4
+          }
+        },
+        {
+          "text": "공허의 흐름 자체를 관찰한다",
+          "affinity": {
+            "void": 4
+          }
+        }
+      ]
+    },
+    {
+      "title": "속성 감응 IV",
+      "text": "전투에서 가장 이상적인 승리 방식은?",
+      "choices": [
+        {
+          "text": "압도적인 공격으로 전장을 지배",
+          "affinity": {
+            "fire": 2,
+            "lightning": 2,
+            "blood": 1
+          }
+        },
+        {
+          "text": "제어와 생존으로 상대를 무력화",
+          "affinity": {
+            "ice": 2,
+            "nature": 2,
+            "holy": 1
+          }
+        },
+        {
+          "text": "위치와 특수 능력으로 판을 바꾼다",
+          "affinity": {
+            "ender": 2,
+            "evocation": 2,
+            "void": 1
+          }
+        }
+      ]
+    },
+    {
+      "title": "최종 검사",
+      "text": "마법사가 된 뒤 가장 중요하게 생각할 것은?",
+      "choices": [
+        {
+          "text": "강해지는 것",
+          "stat": {
+            "str": 1,
+            "mag": 2
+          },
+          "affinity": {
+            "fire": 1,
+            "lightning": 1,
+            "blood": 1
+          }
+        },
+        {
+          "text": "살아남고 지키는 것",
+          "stat": {
+            "vit": 2,
+            "mnd": 1
+          },
+          "affinity": {
+            "ice": 1,
+            "nature": 1,
+            "holy": 1
+          }
+        },
+        {
+          "text": "더 많은 것을 이해하는 것",
+          "stat": {
+            "mnd": 2,
+            "mag": 1
+          },
+          "affinity": {
+            "ender": 1,
+            "evocation": 1,
+            "void": 1
+          }
+        }
+      ]
+    }
+  ],
+  "schools": {
+    "fire": "불",
+    "ice": "물/빙결",
+    "lightning": "전격",
+    "nature": "풀/자연",
+    "holy": "신성",
+    "ender": "엔더",
+    "blood": "혈마법",
+    "evocation": "소환/환술",
+    "void": "공허"
+  },
+  "weapons": {
+    "sword": "검",
+    "greatsword": "대검",
+    "dagger": "단검",
+    "spear": "창/할버드",
+    "axe": "도끼",
+    "hammer": "망치/둔기",
+    "bow": "활",
+    "crossbow": "석궁",
+    "staff": "스태프",
+    "spellbook": "마법서",
+    "hybrid": "마검/하이브리드"
+  }
+}

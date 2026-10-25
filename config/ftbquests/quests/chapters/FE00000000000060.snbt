@@ -1,0 +1,92 @@
+{
+  "filename": "FE00000000000060",
+  "group": "FE00000000000001",
+  "icon": {
+    "id": "minecraft:nether_star"
+  },
+  "id": "FE00000000000060",
+  "order_index": 5,
+  "quests": [
+    {
+      "id": "FE00000000000909",
+      "x": 0.0,
+      "y": 0.0,
+      "shape": "circle",
+      "icon": {
+        "id": "minecraft:amethyst_shard"
+      },
+      "tasks": [
+        {
+          "id": "FE00000000000A09",
+          "type": "advancement",
+          "advancement": "fantasia_research:course/advanced/amethyst",
+          "criterion": ""
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "FE0000000000090A",
+      "dependencies": [
+        "FE00000000000909"
+      ],
+      "x": 4.0,
+      "y": 0.0,
+      "shape": "circle",
+      "icon": {
+        "id": "minecraft:nether_star"
+      },
+      "tasks": [
+        {
+          "id": "FE00000000000A0A",
+          "type": "advancement",
+          "advancement": "fantasia_research:course/advanced/nether_star",
+          "criterion": ""
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "FE0000000000090B",
+      "dependencies": [
+        "FE0000000000090A"
+      ],
+      "x": 8.0,
+      "y": 0.0,
+      "shape": "circle",
+      "icon": {
+        "id": "minecraft:end_crystal"
+      },
+      "tasks": [
+        {
+          "id": "FE00000000000A0B",
+          "type": "advancement",
+          "advancement": "fantasia_research:course/advanced/end_crystal",
+          "criterion": ""
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "FE0000000000090C",
+      "dependencies": [
+        "FE0000000000090B"
+      ],
+      "x": 12.0,
+      "y": 0.0,
+      "shape": "diamond",
+      "icon": {
+        "id": "minecraft:dragon_head"
+      },
+      "tasks": [
+        {
+          "id": "FE00000000000A0C",
+          "type": "advancement",
+          "advancement": "fantasia_research:course/graduation/capstone",
+          "criterion": ""
+        }
+      ],
+      "rewards": []
+    }
+  ]
+}

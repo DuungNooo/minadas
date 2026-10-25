@@ -1,0 +1,71 @@
+{
+  "filename": "FE00000000000040",
+  "group": "FE00000000000001",
+  "icon": {
+    "id": "minecraft:compass"
+  },
+  "id": "FE00000000000040",
+  "order_index": 3,
+  "quests": [
+    {
+      "id": "FE00000000000904",
+      "x": 0.0,
+      "y": 0.0,
+      "shape": "circle",
+      "icon": {
+        "id": "minecraft:nether_bricks"
+      },
+      "tasks": [
+        {
+          "id": "FE00000000000A04",
+          "type": "advancement",
+          "advancement": "fantasia_research:course/field/nether_entry",
+          "criterion": ""
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "FE00000000000905",
+      "dependencies": [
+        "FE00000000000904"
+      ],
+      "x": 4.0,
+      "y": 0.0,
+      "shape": "circle",
+      "icon": {
+        "id": "minecraft:blaze_powder"
+      },
+      "tasks": [
+        {
+          "id": "FE00000000000A05",
+          "type": "advancement",
+          "advancement": "fantasia_research:course/field/blaze_sample",
+          "criterion": ""
+        }
+      ],
+      "rewards": []
+    },
+    {
+      "id": "FE00000000000906",
+      "dependencies": [
+        "FE00000000000905"
+      ],
+      "x": 8.0,
+      "y": 0.0,
+      "shape": "diamond",
+      "icon": {
+        "id": "minecraft:blaze_rod"
+      },
+      "tasks": [
+        {
+          "id": "FE00000000000A06",
+          "type": "advancement",
+          "advancement": "fantasia_research:course/field/blaze_combat",
+          "criterion": ""
+        }
+      ],
+      "rewards": []
+    }
+  ]
+}

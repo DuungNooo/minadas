@@ -1,0 +1,22 @@
+{
+  "parent": "fantasia_research:root",
+  "display": {
+    "icon": {
+      "id": "minecraft:end_crystal"
+    },
+    "title": "융합 촉매",
+    "description": "마왕성에 진입해 최종 봉인 연구 조건을 달성합니다.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "campaign_event": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "fantasia_research:course/fusion_ready"
+  }
+}

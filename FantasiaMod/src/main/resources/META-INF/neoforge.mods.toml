@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="All Rights Reserved"
+[[mods]]
+modId="fantasia_campaign"
+version="1.2.0-rc.1"
+displayName="Fantasia Campaign"
+description='''아카데미 입학 검사, NPC 대화와 캠페인을 위한 전용 모드.'''
+[[dependencies.fantasia_campaign]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.224,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.fantasia_campaign]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1]"
+ordering="NONE"
+side="BOTH"
+[[dependencies.fantasia_campaign]]
+modId="irons_spellbooks"
+type="optional"
+versionRange="[1.21.1-3.16.3,)"
+ordering="AFTER"
+side="BOTH"

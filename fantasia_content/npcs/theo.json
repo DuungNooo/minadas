@@ -1,0 +1,9 @@
+{
+  "id": "theo",
+  "name": "테오",
+  "role": "전령",
+  "relationship": false,
+  "favorite": "",
+  "portrait": "theo.png",
+  "personality": "지역 간 메인 스토리를 연결한다."
+}
